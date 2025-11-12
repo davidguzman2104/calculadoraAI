@@ -1,5 +1,5 @@
 // === app.js — mostrar SOLO el resultado numérico, robusto a formatos ===
-const WEBHOOK_URL = 'https://david3028.app.n8n.cloud/webhook-test/operaciones-ai';
+const WEBHOOK_URL = 'https://davidtuzo4854.app.n8n.cloud/webhook-test/operaciones-ai';
 const IP_ENDPOINT = 'https://api.ipify.org?format=json';
 
 // DOM
@@ -192,3 +192,4 @@ function formatNumber(n) {
   let s = n.toFixed(10);
   return s.replace(/\.?0+$/,'');
 }
+
